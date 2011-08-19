@@ -1,5 +1,7 @@
 " Pathogen : bundle autoload
+source ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
+call pathogen#helptags()
 
 filetype plugin on
 filetype plugin indent on
@@ -23,3 +25,4 @@ set expandtab
 set number
 set ruler
 set laststatus=2
+set showcmd

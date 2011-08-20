@@ -26,3 +26,20 @@ set number
 set ruler
 set laststatus=2
 set showcmd
+
+" Tag navigation
+nnoremap <Tab> <C-i>
+nnoremap <S-Tab> <C-o>
+noremap <Return> <C-]>
+
+"" Bundles
+
+" SnipMate : https://github.com/msanders/snipmate.vim
+let g:snippets_dir = '~/.vim/snippets'
+let g:snips_author = 'Benjamin Grandfond <benjaming@theodo.fr>'
+
+" PIV : https://github.com/spf13/PIV
+let g:DisableAutoPHPFolding = 1
+
+" Localvimrc : git://github.com/vim-scripts/localvimrc.git
+let g:localvimrc_name = '.vimrclocal'

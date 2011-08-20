@@ -1,7 +1,7 @@
 " Pathogen : bundle autoload
 source ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
-"call pathogen#helptags()
+call pathogen#helptags()
 
 filetype plugin on
 filetype plugin indent on

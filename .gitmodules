@@ -38,3 +38,9 @@
 	path = .vim/bundle/l9
 	url = git://github.com/slack/vim-l9.git
         ignore = dirty
+[submodule ".vim/bundle/ack"]
+	path = .vim/bundle/ack
+	url = git://github.com/mileszs/ack.vim.git
+[submodule ".vim/bundle/VimDebugger"]
+	path = .vim/bundle/VimDebugger
+	url = git://github.com/taxilian/VimDebugger.git

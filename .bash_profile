@@ -14,4 +14,4 @@ if [ -f /opt/local/etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 GIT_PS1_SHOWDIRTYSTATE=1
-PS1="${PS1}"'$(__git_ps1 " (%s)")\$ '
+PS1='\h:\w \u $(__git_ps1 " (%s)")\$ '

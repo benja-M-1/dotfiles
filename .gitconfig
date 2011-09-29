@@ -9,6 +9,7 @@
 	ui = auto
 [core]
 	editor = vi 
+	excludesfile = /Users/benjamingrandfond/.gitexcludes
 [push]
 	default = matching
 [alias]

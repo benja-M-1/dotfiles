@@ -37,14 +37,6 @@ nnoremap <Tab> <C-i>
 nnoremap <S-Tab> <C-o>
 noremap <Return> <C-]>
 
-" VimDebugger mapping
-map <F11> :DbgStepInto<CR>
-map <F10> :DbgStepOver<CR>
-map <S-F11> :DbgStepOut<CR>
-map <F5> :DbgRun<CR>
-map <S-F5> :DbgDetach<CR>
-map <F8> :DbgToggleBreakpoint<CR>
-
 " Remove trailing spaces on save
 autocmd BufWritePost $ :s/\s$//
 

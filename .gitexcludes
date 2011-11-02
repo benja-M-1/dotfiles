@@ -1,7 +1,14 @@
+# VIM
 tags
 doc/tags
+
+# MAC OS X
 .DS_Store?
 ehthumbs.db
 Icon?
 Thumbs.db
+
+# IDE specific config fodlers
+/.nbproject
+/.idea
 

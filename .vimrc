@@ -8,7 +8,7 @@ filetype plugin indent on
 " Colors
 syntax on
 set background=dark
-colorscheme solarized
+" colorscheme solarized
 
 " Unicode
 set encoding=utf-8

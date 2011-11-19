@@ -32,6 +32,9 @@ if !filewritable($HOME."/.vim/swp")
 endif
 set directory=~/.vim/swp
 
+" Omnicomplete
+set omnifunc=csscomplete#CompleteCSS
+
 " Tag mapping
 nnoremap <Tab> <C-i>
 nnoremap <S-Tab> <C-o>

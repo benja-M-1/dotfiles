@@ -1,0 +1,23 @@
+[user]
+        name  = Benjamin Grandfond
+        email = benjaming@theodo.fr
+[core]
+        editor = vi
+[color]
+        branch      = auto
+        diff        = auto
+        interactive = auto
+        status      = auto
+        ui          = auto
+[push]
+        default = matching
+[alias]
+        clo = clone
+        co  = checkout
+        st  = status
+        pur = pull --rebase
+        ci  = commit
+        rc  = rebase --continue
+        lg  = log -M --decorate --graph --oneline
+        br  = branch
+        sth = stash

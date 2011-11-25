@@ -5,5 +5,5 @@ doc/tags
 ehthumbs.db
 Icon?
 Thumbs.db
-/.idea
-/.nbproject
+.idea/
+.nbproject/

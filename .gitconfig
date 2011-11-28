@@ -10,7 +10,7 @@
         status      = auto
         ui          = auto
 [push]
-        default = matching
+        default = current
 [alias]
         clo = clone
         co  = checkout

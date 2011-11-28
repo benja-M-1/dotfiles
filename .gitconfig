@@ -11,7 +11,7 @@
 	editor = vi 
 	excludesfile = ~/.gitexcludes
 [push]
-	default = matching
+	default = current
 [alias]
 	st  = status
 	lg  = log -M --decorate --graph --oneline

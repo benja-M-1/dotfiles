@@ -18,3 +18,6 @@ PS1='\h:\w \u $(__git_ps1 " (%s)")\$ '
 
 # MacPorts Installer addition on 2011-10-02_at_13:22:05: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=/usr/local/node/bin:$PATH
+export NODE_PATH=/usr/local:/usr/local/lib/node_modules
+export NODE_PATH=/usr/local/lib/node_modules/zappa/node_modules:$NODE_PATH

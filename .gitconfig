@@ -3,6 +3,7 @@
         email = benjaming@theodo.fr
 [core]
         editor = vi
+        excludesfile = ~/.gitexcludes
 [color]
         branch      = auto
         diff        = auto

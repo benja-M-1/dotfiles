@@ -1,6 +1,7 @@
 # VIM
 tags
 doc/tags
+.netrwhist
 
 # MAC OS X
 .DS_Store?
@@ -9,6 +10,6 @@ Icon?
 Thumbs.db
 
 # IDE specific config fodlers
-/.nbproject
-/.idea
+.nbproject
+.idea
 

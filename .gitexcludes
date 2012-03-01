@@ -9,7 +9,7 @@ ehthumbs.db
 Icon?
 Thumbs.db
 
-# IDE specific config fodlers
+# IDE specific config folders
 .nbproject
 .idea
 

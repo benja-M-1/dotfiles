@@ -4,11 +4,17 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 
 # Aliases
 alias ll='ls -als'
+alias vi='vim'
+alias git='hub'
+alias mysql='mysql5'
 
 # Macport
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=$HOME/bin:/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=/usr/local/node/bin:$PATH
+export NODE_PATH=/usr/local:/usr/local/lib/node_modules
+export NODE_PATH=/usr/local/lib/node_modules/zappa/node_modules:$NODE_PATH
 
-# bash_completio
+# bash_completion
 if [ -f /opt/local/etc/bash_completion ] && ! shopt -oq posix; then
     . /opt/local/etc/bash_completion
 fi
@@ -16,8 +22,7 @@ fi
 GIT_PS1_SHOWDIRTYSTATE=1
 PS1='\h:\w \u $(__git_ps1 " (%s)")\$ '
 
-# MacPorts Installer addition on 2011-10-02_at_13:22:05: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-export PATH=/usr/local/node/bin:$PATH
-export NODE_PATH=/usr/local:/usr/local/lib/node_modules
-export NODE_PATH=/usr/local/lib/node_modules/zappa/node_modules:$NODE_PATH
+# Setting PATH for Python 2.7
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH
